@@ -5,8 +5,6 @@ Webtoolkit base64 decode
 
 # base64.js
 
-Yet another Base64 transcoder
-
 ## Usage
 
 ### In Browser
@@ -22,7 +20,7 @@ var Base64 = require('./base64.js').Base64;
 ## SYNOPSIS
 
 ````javascript
-Base64.encode('dankogai');  // ZGFua29nYWk=
+Base64.encode('Paulys');  // ZGFua29nYWk=
 Base64.encode('小飼弾');    // 5bCP6aO85by+
 Base64.encodeURI('小飼弾'); // 5bCP6aO85by-
 
