@@ -1,5 +1,5 @@
 {
-	"name": "js-base64",
+	"name": "webtoolkit.base64",
 	"version": "1.0.0",
 	"main": ["./base64.js"],
 	"ignore": [
