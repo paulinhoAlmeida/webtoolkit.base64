@@ -4,6 +4,7 @@ VERSION = $(shell cat version.txt)
 BRANCH = $(shell git branch | grep \* | cut -d' ' -f 2)
 build: | build-min
 
+
 build-min:
 	@echo "Creating version."
 	@mkdir -p ./build
